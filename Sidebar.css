@@ -1,0 +1,21 @@
+.sidebar {
+  width: 200px;
+  padding: 10px;
+  background: white;
+}
+
+.sidebar p {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar p:hover {
+  background: #f2f2f2;
+}
+
+/* Mobile: hide sidebar */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

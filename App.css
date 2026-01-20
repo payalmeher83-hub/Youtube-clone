@@ -1,0 +1,10 @@
+.app__body {
+  display: flex;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .app__body {
+    flex-direction: column;
+  }
+}
